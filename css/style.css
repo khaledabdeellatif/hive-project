@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.photo{
+    margin-bottom: 30px;
+}
+.photo img{
+    width: 100%;
+    height: 180px;
+}
+ ul{
+    display: flex;
+    
+    list-style: none;
+    justify-content: space-evenly;
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+}
+.about{
+    margin-top:100px;
+    display: flex;
+    
+}
+.about {
+    display: flex; 
+    align-items: center; 
+    padding-top: 90px;
+}
+
+.about img {
+    margin-left: 30px;
+    width: 500px;
+    height: 600px; 
+    margin-right: 40px; 
+    padding-right: 50px;
+}
+span{
+    color: red;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+table img {
+    max-width: 100px;
+}
+.membres{
+    margin-top: 100px;
+    padding: 50px;
+}
+.contact img {
+    max-width: 60px;
+}
+
+.contact {
+    padding: 60px;
+    align-items: center; 
+}
+
+.adress, .mail, .phone {
+    display: flex; 
+    align-items: center; 
+    margin-top: 10px; 
+}
+
+.adress img, .mail img, .phone img {
+    margin-right: 10px;
+}
